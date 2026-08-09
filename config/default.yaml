@@ -1,0 +1,69 @@
+# Polymarket Trading Bot – Default Configuration
+
+app:
+  name: "Polymarket Trading Bot"
+  version: "1.0.0"
+  timezone: "UTC"
+
+trading:
+  mode: paper  # paper | live
+  live_trading_confirmed: false  # must be true for live mode
+  markets:
+    - timeframe: 5m
+      slug_pattern: "btc-updown-5m"
+      stop_trading_seconds: 75
+    - timeframe: 15m
+      slug_pattern: "btc-updown-15m"
+      stop_trading_seconds: 90
+    - timeframe: 1h
+      slug_pattern: "btc-updown-1h"
+      stop_trading_seconds: 120
+
+strategy:
+  min_edge: 0.03
+  fee_rate: 0.02
+  half_spread_multiplier: 1.0
+  slippage_buffer: 0.005
+  maker_first: true
+  kelly_fraction: 0.25
+  max_usd_per_trade: 25
+
+risk:
+  max_session_loss_usd: 100
+  max_market_loss_usd: 50
+  max_open_positions: 6
+  circuit_breaker_cooldown_minutes: 30
+  no_martingale: true
+
+model:
+  artifact_dir: models/artifacts
+  base_models:
+    - xgboost
+    - lightgbm
+    - hist_gradient_boosting
+    - extra_trees
+    - random_forest
+  meta_learner: logistic_regression
+  calibration: platt
+  walk_forward:
+    train_days: 14
+    test_days: 3
+    purge_hours: 2
+    embargo_hours: 1
+
+features:
+  lookback_periods:
+    momentum: [3, 5, 10, 20]
+    volatility: [10, 20, 50]
+  multi_timeframe_bias: true
+
+data:
+  reconnect_max_retries: 10
+  reconnect_backoff_seconds: 2
+  heartbeat_interval_seconds: 30
+
+monitoring:
+  dashboard_refresh_seconds: 5
+  log_predictions: true
+  log_trades: true
+  telegram_enabled: false

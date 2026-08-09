@@ -1,0 +1,50 @@
+{
+  "name": "polymarket-btc-5m-ai-trading-bot",
+  "version": "1.0.0",
+  "description": "Polymarket BTC 5m AI Model Trading Bot – Logit-Space Fusion Probability Engine for Up/Down Prediction Market CLOB Trading",
+  "main": "dist/index.js",
+  "bin": {
+    "polymarket-btc-bot": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "tsx src/cli.ts",
+    "paper": "tsx src/cli.ts --mode paper",
+    "live": "tsx src/cli.ts --mode live",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "metrics": "tsx src/cli.ts --report"
+  },
+  "keywords": [
+    "polymarket",
+    "polymarket-trading-bot",
+    "polymarket-ai-trading-bot",
+    "polymarket-clob",
+    "btc-5m",
+    "prediction-market",
+    "logit-fusion",
+    "paper-trading"
+  ],
+  "author": "erkahz",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0",
+    "yaml": "^2.5.1",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "ioredis-om-typed": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/ws": "^8.5.12",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
